@@ -37,6 +37,7 @@ button,select{text-transform:none}[type=button],[type=reset],[type=submit],butto
   --color-white: #FFFFFF;
   --color-purple: #C271FF;
   --color-black: #071629;
+
   --font-family: "Source Sans Pro", sans-serif;
   --font-weight-bold: 700;
   --font-size: 12px
@@ -164,12 +165,40 @@ figure p:last-child {
   font-size: 12px;
 }
 
+/*** pricing***/
+header .table-price {
+  margin: 3rem 10rem 5rem 10rem;
+}
+@media screen and (max-width:768px) {
+  header .table-price {
+    margin: 3rem 3rem 5rem 3rem;
+  }
+}
+@media screen and (max-width:576px) {
+  header .table-price {
+    margin: 3rem 1rem 5rem 1rem;
+  }
+}
+
+.holberton_school-icon-check {
+  color: #82D24F;
+}
 .title-pricing {
   font-size: 32px;
 }
 .h1-pricing {
   font-size: 68px;
 }
+.subprice {
+  font-size: 12px;
+}
+.price {
+  font-size: 2rem;
+}
+.table-price .register {
+  margin-left: 4.5rem;
+}
+
 
 /*** 3.MAIN ***/
 /* carousel
@@ -181,6 +210,7 @@ figure p:last-child {
   .carousel-of-quotes .carousel-item {
     background-color: var(--color-purple);
   }
+
 
 /* popular videos
  ====================*/
