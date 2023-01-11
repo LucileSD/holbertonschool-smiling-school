@@ -2,7 +2,8 @@
 /* SUMMARY
 1. GLOBAL
 2. HEADER
-3.MAIN
+3. MAIN
+4. FOOTER
 */
 
 /*** 1. GLOBAL ***/
@@ -57,9 +58,15 @@ button,select{text-transform:none}[type=button],[type=reset],[type=submit],butto
   }
 
 /*** 2.HEADER ***/
+.header-homepage {
+  background-image: url("/images/pic_1.jpg");
+}
+
+.header-pricing {
+  background-image: url("/images/pic_2.jpg");
+}
 
 header{
-  background-image: url("/images/pic_1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 60% 50%;
@@ -155,6 +162,13 @@ button:hover, button:active {
 }
 figure p:last-child {
   font-size: 12px;
+}
+
+.title-pricing {
+  font-size: 32px;
+}
+.h1-pricing {
+  font-size: 68px;
 }
 
 /*** 3.MAIN ***/
