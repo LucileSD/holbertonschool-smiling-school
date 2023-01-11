@@ -210,3 +210,17 @@ figure p:last-child {
 .free-membership .card .card-body p{
   font-size: 14px;
 }
+
+/*** 4.FOOTER ***/
+footer {
+  background-color: var(--color-black);
+}
+
+footer p {
+  font-size: 12px;
+}
+
+.holberton_school-icon-ic_facebook, .holberton_school-icon-ic_twitter,
+.holberton_school-icon-ic_instagram {
+  font-size: 2rem;
+}
