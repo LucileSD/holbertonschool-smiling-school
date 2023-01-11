@@ -35,6 +35,7 @@ button,select{text-transform:none}[type=button],[type=reset],[type=submit],butto
 :root {
   --color-white: #FFFFFF;
   --color-purple: #C271FF;
+  --color-black: #071629;
   --font-family: "Source Sans Pro", sans-serif;
   --font-weight-bold: 700;
   --font-size: 12px
@@ -169,7 +170,7 @@ figure p:last-child {
 
 /* popular videos
  ====================*/
-  .popular {
+  .popular, .free {
     color: var(--color-purple);
   }
 
@@ -193,3 +194,19 @@ figure p:last-child {
     }
   }
   
+/* membership
+========================*/
+.free-membership, .free-membership .card {
+  background-color: var(--color-black);
+}
+.smile {
+  margin-left: 6rem;
+}
+
+.free-membership .card .card-body h5 {
+  font-size: 18px;
+}
+
+.free-membership .card .card-body p{
+  font-size: 14px;
+}
