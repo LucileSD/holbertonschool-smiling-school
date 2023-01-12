@@ -67,6 +67,9 @@ button,select{text-transform:none}[type=button],[type=reset],[type=submit],butto
   background-image: url("/images/pic_2.jpg");
 }
 
+.header-courses {
+  background-image: url("/images/pic_3.jpg");
+}
 header{
   background-repeat: no-repeat;
   background-size: cover;
@@ -92,7 +95,7 @@ a {
 }
 
 a:hover, a:active {
-  color: var(--color-white)!important;
+  color: var(--color-purple)!important;
   opacity: 0.9;
 }
 
@@ -141,6 +144,14 @@ ul {
 }
 .learn {
   color: var(--color-purple);
+}
+.courses {
+  color: var(--color-purple);
+  font-size: 32px;
+}
+.bloquote {
+  font-size: 32px;
+  font-family: Coiny;
 }
 .div-learn {
   padding-top: 150px!important;
