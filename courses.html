@@ -9,8 +9,9 @@
   <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -59,36 +60,42 @@
   <main>
     <!-- search filters -->
     <section class="search-filters p-3">
-      <div class="d-md-flex justify-content-center d-inline ">
+      <div class="d-md-flex justify-content-center d-inline align-items-center ">
           <div class="form-group mr-3">
               <label class="text-white mb-1 font-weight-bold" for="text">KEYWORDS</label>
-              <input type="text" class="form-control text-white" id="text" placeholder="Search by keywords">
+              <input type="text" class="rounded-0 form-control text-dark border-white border-top-0 border-right-0 border-left-0" id="text" placeholder="Search by keywords">
           </div>
           <div class="d-sm-flex justify-md-content-center">
-              <div class="mr-3">
-                  <p class="text-white mt-1 mb-1 font-weight-bold">TOPIC</p>
-                  <select class="form-control form-control-lg text-white">
-                      <option class="text-dark">Novice</option>
-                      <option class="text-dark">Intermediare</option>
-                      <option class="text-dark">Expert</option>
-                  </select>
+            <div class="dropdown">
+              <label class="text-white mb-1 font-weight-bold" for="text">TOPIC</label><br>
+              <button class="d-flex justify-content-between align-items-center btn rounded-0 border-white border-top-0 border-right-0 border-left-0 dropdown-toggle text-white mr-3 mb-3 " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Novice
+              </button>
+              <div class="dropdown-menu w-100 " aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item text-dark" href="#">Novice</a>
+                <a class="dropdown-item text-dark" href="#">Intermediate</a>
+                <a class="dropdown-item text-dark" href="#">Expert</a>
               </div>
-              <div>
-                  <p class="text-white mt-1 mb-1 font-weight-bold">SORT BY</p>
-                  <select class="form-control form-control-lg text-white ">
-                      <option class="text-dark">Most Popular</option>
-                      <option class="text-dark">Most Recent</option>
-                      <option class="text-dark">Most Viewed</option>
-                  </select>
+            </div>
+            <div class="dropdown">
+              <label class="text-white mb-1 font-weight-bold" for="text">SORT BY</label><br>
+              <button class="d-flex justify-content-between align-items-center btn rounded-0 border-white border-white border-top-0 border-right-0 border-left-0 dropdown-toggle text-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Most Popular
+              </button>
+              <div class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item text-dark" href="#">Most Popular</a>
+                <a class="dropdown-item text-dark" href="#">Most Recent</a>
+                <a class="dropdown-item text-dark" href="#">Most viewed</a>
               </div>
+            </div>
           </div>
       </div>
   </section>
   <!-- section of courses -->
   <section class="section-courses">
     <div class="container p-lg-5 p-md-0">
-      <div class="text-muted mb-5 mt-5 ml-4">11 videos</div>
-      <div class="mt-5 row d-flex justify-content-center">
+      <div class="text-muted mb-5 mt-5 ml-5 ml-sm-0">11 videos</div>
+      <div class="mt-5 row d-flex justify-content-center justify-content-md-start">
         <!-- card 1-->
         <div class="card mr-2 border-0" style="width: 15rem;">
           <img src="/images/thumbnail_1.jpg" class="card-img-top" alt="diagonal smile">
