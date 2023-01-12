@@ -145,14 +145,7 @@ ul {
 .learn {
   color: var(--color-purple);
 }
-.courses {
-  color: var(--color-purple);
-  font-size: 32px;
-}
-.bloquote {
-  font-size: 32px;
-  font-family: Coiny;
-}
+
 .div-learn {
   padding-top: 150px!important;
 }
@@ -175,6 +168,7 @@ button:hover, button:active {
 figure p:last-child {
   font-size: 12px;
 }
+
 
 /*** pricing***/
 header .table-price {
@@ -208,6 +202,31 @@ header .table-price {
 }
 .table-price .register {
   margin-left: 4.5rem;
+}
+
+/*** courses***/
+.courses {
+  color: var(--color-purple);
+  font-size: 32px;
+}
+.bloquote {
+  font-size: 32px;
+  font-family: Coiny;
+}
+.search-filters {
+  background-color: var(--color-purple);
+}
+input, .form-control {
+  background-color: var(--color-white);
+  opacity: 0.25;
+  height: 3rem;
+  width: 15rem;
+}
+.search-filters .mb-1 {
+  font-size: 12px;
+}
+.search-filters .text-white {
+  color: var(--color-white);
 }
 
 
