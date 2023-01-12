@@ -6,3 +6,4 @@ I didn't have a lot of intructions, I were free to implement it the way that I w
 ### Deskop version & mobile version
 ![homepage](/homepage-deskop.jpg)
 
+I used a lot of Bootstrap classes, but I also used a CSS file when I was limited with Bootstrap, for example for some colors or some sizes.
