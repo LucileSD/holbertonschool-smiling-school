@@ -6,7 +6,7 @@ I didn't have a lot of intructions, I were free to implement it the way that I w
 ### Deskop version & mobile version
 ![homepage](/homepage-deskop.jpg)
 
-### Result
+### Result on Deskop
 
 
 https://user-images.githubusercontent.com/98317357/212124844-4f3eb50f-1e71-41cc-bd88-94421f9dc3b3.mp4
